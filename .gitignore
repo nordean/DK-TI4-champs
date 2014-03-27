@@ -1,0 +1,39 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package checkstrings;
+
+import java.util.*;
+
+/**
+ *
+ * @author 041201161
+ */
+public class CheckStrings {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //set the variables and check statements 
+        String string1a;
+        String string1b;
+        
+        //set the values directly using the assignment statement
+        string1a="hello";
+        string1b="hello";
+        
+        System.out.println("are the first set the same and equal? " +(string1a== string1b)+" and " +(string1a.equals(string1b)));
+        
+        //now creat two new objects and check the same
+        String string2a;
+        String string2b;
+        
+        //set the values using a new statement
+        string2a=new String("hello");
+        string2b=new String("hello");
+        
+        System.out.println("are the second set the same and equal? " + (string2a== string2b) + " and " + (string2a.equals(string2b)));
+    }
+}
